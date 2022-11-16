@@ -3,6 +3,6 @@
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "gert-health-pricing",
-  "defaultLocation": "US"
+  "defaultLocation": "us-central1"
 }
     

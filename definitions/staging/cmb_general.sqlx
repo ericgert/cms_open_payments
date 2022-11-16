@@ -1,0 +1,11 @@
+config {
+  type: "view",
+  schema: "cms_open_payment",
+  description: "combined raw general payments across program years",
+  tags: ["staging"]
+}
+
+select
+  *
+from
+  ${ref("general_*")}
