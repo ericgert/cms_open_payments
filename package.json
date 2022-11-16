@@ -1,0 +1,6 @@
+{
+  "name": "cms_open_payments",
+  "dependencies": {
+    "@dataform/core": "2.0.1"
+  }
+}
