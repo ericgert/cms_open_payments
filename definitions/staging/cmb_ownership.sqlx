@@ -1,0 +1,12 @@
+config {
+  type: "view",
+  name: "vw_cmb_ownership",
+  schema: "cms_open_payment",
+  description: "combined raw ownership interest across program years",
+  tags: ["staging"]
+}
+
+select
+  *
+from
+  ${ref("ownership_*")}

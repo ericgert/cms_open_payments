@@ -1,6 +1,6 @@
 config {
   type: "view",
-  name: "vw_cmb_general_raw",
+  name: "vw_cmb_general",
   schema: "cms_open_payment",
   description: "combined raw general payments across program years",
   tags: ["staging"]

@@ -1,0 +1,12 @@
+config {
+  type: "view",
+  name: "vw_cmb_research",
+  schema: "cms_open_payment",
+  description: "combined raw research payments across program years",
+  tags: ["staging"]
+}
+
+select
+  *
+from
+  ${ref("research_*")}
