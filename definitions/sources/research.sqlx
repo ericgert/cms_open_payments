@@ -2,5 +2,5 @@ config {
   type: "declaration",
   database: "gert-health-pricing",
   schema: "cms_open_payment_raw",
-  name: "general_*"
+  name: "research_*"
 }
